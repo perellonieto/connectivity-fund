@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/connectivity-fund/static/css/main.c2aa7144.chunk.css",
-    "main.js": "/connectivity-fund/static/js/main.c8b650f5.chunk.js",
-    "main.js.map": "/connectivity-fund/static/js/main.c8b650f5.chunk.js.map",
+    "main.js": "/connectivity-fund/static/js/main.951fc63e.chunk.js",
+    "main.js.map": "/connectivity-fund/static/js/main.951fc63e.chunk.js.map",
     "runtime-main.js": "/connectivity-fund/static/js/runtime-main.16eb125e.js",
     "runtime-main.js.map": "/connectivity-fund/static/js/runtime-main.16eb125e.js.map",
     "static/js/2.0435981d.chunk.js": "/connectivity-fund/static/js/2.0435981d.chunk.js",
@@ -14,6 +14,8 @@
     "static/media/avatar.37d93aaa.jpg": "/connectivity-fund/static/media/avatar.37d93aaa.jpg",
     "static/media/carles.463110bb.jpg": "/connectivity-fund/static/media/carles.463110bb.jpg",
     "static/media/catholijn.5b7a7245.jpg": "/connectivity-fund/static/media/catholijn.5b7a7245.jpg",
+    "static/media/gerhard.83d64ea0.jpg": "/connectivity-fund/static/media/gerhard.83d64ea0.jpg",
+    "static/media/giovanni.def125f3.jpg": "/connectivity-fund/static/media/giovanni.def125f3.jpg",
     "static/media/hector.2d2e3d8d.jpg": "/connectivity-fund/static/media/hector.2d2e3d8d.jpg",
     "static/media/joaquin.d2b766dd.jpg": "/connectivity-fund/static/media/joaquin.d2b766dd.jpg",
     "static/media/jose.dc59e1e6.jpg": "/connectivity-fund/static/media/jose.dc59e1e6.jpg",
@@ -25,6 +27,6 @@
     "static/js/runtime-main.16eb125e.js",
     "static/js/2.0435981d.chunk.js",
     "static/css/main.c2aa7144.chunk.css",
-    "static/js/main.c8b650f5.chunk.js"
+    "static/js/main.951fc63e.chunk.js"
   ]
 }
