@@ -280,6 +280,9 @@ export default function SectionAbout() {
                 for your research visit or workshop. That can be either your own
                 lab or your host lab. As stated before, that lab should be a
                 non-TAILOR lab to be able to recieve third party funding.
+                Workshops funded by the connecticity fund (and hosted by
+                non-TAILOR labs) can cover travel costs for people outside of
+                Europe if they handle the reimbursements.
               </p>
               <div className={classes.title}>
                 <h3>TAILOR labs?</h3>
