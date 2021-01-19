@@ -264,7 +264,12 @@ export default function SectionAbout() {
                 one of the other countries eligible for funding</a>. Sadly, this 
                 excludes countries such as the USA, Canada, or China. If you are 
                 not based in one of these countries, you will need to be invited 
-                by a European lab who can receive the funding.
+                by a European lab who can receive the funding. In almost all
+                cases, your own nationality is not important, but rather where the
+                lab is located that will receive the funding for your research visit
+                or workshop. That can be either your own lab or your host lab. As 
+                stated before, that lab should be a non-TAILOR lab to be able to
+                recieve third party funding.
                </p>
               <div className={classes.title}>
                 <h3>TAILOR labs?</h3>
