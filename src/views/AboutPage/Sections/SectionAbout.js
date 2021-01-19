@@ -275,9 +275,7 @@ export default function SectionAbout() {
                 .
               </p>
               <p>
-                If you are not based in one of these countries, you will need to
-                be invited by a European lab who can receive the funding. In
-                almost all cases, your own nationality is not important, but
+                In almost all cases, your own nationality is not important, but
                 rather where the lab is located that will receive the funding
                 for your research visit or workshop. That can be either your own
                 lab or your host lab. As stated before, that lab should be a
