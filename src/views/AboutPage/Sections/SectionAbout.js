@@ -158,9 +158,12 @@ export default function SectionAbout() {
                   <ul>
                     <li>
                       Introduction: Significance of proposed research and prior
-                      work
+                      work.
                     </li>
-                    <li>Methods: Your technical approach</li>
+                    <li>Methods: For research visits, detail the technical approach 
+                      you have in mind. For workshops, detail who will attend (and why) 
+                      and how participants will work together.
+                    </li>
                     <li>
                       Expected Results: Please include milestones with timeline
                       estimates. This could include datasets, code release, tech
@@ -190,7 +193,7 @@ export default function SectionAbout() {
                 In the appendices, you need to submit your{" "}
                 <b>Curriculum Vitae (CV)</b> and an{" "}
                 <b>invitation letter from your host</b> stating that they will
-                host you during the indicated period
+                host you during the indicated period. This only applies to research visits.
               </p>
               <div className={classes.title}>
                 <h3>What's important?</h3>
@@ -206,7 +209,8 @@ export default function SectionAbout() {
                 </li>
                 <li>
                   <b>Scientific track record</b> (25%). Your prior achievements,
-                  taking into account age and personal situation.
+                  taking into account age and personal situation. For workshops, this can 
+                  include the track record of the participants or the community as a whole.
                 </li>
                 <li>
                   <b>Scientific step-up</b> (25%). How does the visit help you
@@ -214,11 +218,11 @@ export default function SectionAbout() {
                   workshops: how does the workshop help the participants?
                 </li>
                 <li>
-                  <b>Suitability of the host</b> (12.5%). Is the host lab
+                  <b>Suitability of the host</b> (12.5%). Is the host lab (or workshop venue)
                   appropriate? Is it the best place to do the proposed research?
                 </li>
                 <li>
-                  <b>Suitability of the visit length</b> (12.5%). Is the visit
+                  <b>Suitability of the visit length</b> (12.5%). Is the visit or workshop 
                   length appropriate and realistic, also taking into account
                   your personal and family situation?
                 </li>
