@@ -25,6 +25,11 @@ import carles from "assets/img/faces/carles.jpg";
 import marie from "assets/img/faces/marie.jpg";
 import joaquin from "assets/img/faces/joaquin.jpg";
 import jose from "assets/img/faces/jose.jpg";
+import hector from "assets/img/faces/hector.jpg";
+import gerhard from "assets/img/faces/gerhard.jpg";
+import giovanni from "assets/img/faces/giovanni.jpg";
+import marco from "assets/img/faces/marco.jpg";
+
 
 const useStyles = makeStyles(styles);
 
@@ -38,7 +43,7 @@ export default function TeamSection() {
   const team = [
     {
       name: "Mitra Baratchi",
-      affiliation: "Leiden Institute of Advanced Computer Science, Netherlands",
+      affiliation: "Leiden University, Netherlands",
       bio:
         "Mitra Baratchi is an Assistant professor of Computer Science, Leiden Institute of Advanced Computer Science (LIACS). She is also affiliated with the Leiden Center for Data Science, and Leiden-Delft-Erasmus (LDE) center for BOLD Cities. Her research interests lie in spatio-temporal, time-series, and mobility data modeling domains. Specifically, she designs algorithms that extract patterns from such data in a fully automated manner. She has collaborations notably with the European Space Agency, Honda Research Institute, various municipalities, and researchers in other scientific disciplines. ",
       image: mitra
@@ -46,8 +51,9 @@ export default function TeamSection() {
     {
       name: "Giovanni Casini",
       affiliation: "National Research Council of Italy",
-      bio: "",
-      image: team1
+      bio:
+        "Giovanni Casini is a researcher at the National Research Council of Italy (CNR). He is also an adjunct lecturer at the University of Cape Town, South Africa. He has worked at the Scuola Normale in Pisa, the South African Council for Scientific and Industrial Research (CSIR), and the University of Luxembourg. His research interests include artificial intelligence, Especially logic-based knowledge representation and reasoning.",
+      image: giovanni
     },
     {
       name: "Sašo Džeroski",
@@ -65,14 +71,15 @@ export default function TeamSection() {
     {
       name: "Hector Geffner",
       affiliation: "Universitat Pompeu Fabra, Spain",
-      bio: "",
-      image: team1
+      bio:
+        "Hector Geffner is an ICREA Research Professor at the Universitat Pompeu Fabra (UPF) in Barcelona, Spain, and a Wallenberg Guest Professor at Linköping University, Sweden. He obtained a PhD in Computer Science at UCLA in 1989  and then worked at the IBM T.J. Watson Research Center in NY, USA, and at the Universidad Simon Bolivar, in Caracas.  Hector is a Fellow of AAAI and EurAI.  He teaches logic, AI, and  novel course on social and technological change.  He has recently obtained an Advanced ERC grant to do research on representation learning for planning.",
+      image: hector
     },
     {
       name: "Marco Gori",
       affiliation: "Sienna University, Italy",
-      bio: "",
-      image: team1
+      bio: "Marco Gori is Professor of computer science at the univeristy of Siena, where he is leading the Siena Artificial Intelligence Lab (SAILAB). He is primarily interested in machine learning with applications to pattern recognition, Web mining, game playing, and bioinformatics. He published “Machine Learning: A constraint-based approach” and played a pioneering role in Graph Neural Networks. He has been the chair of the Italian Chapter of the IEEE Computation Intelligence Society, President of the Italian Association for Artificial Intelligence, a Fellow of IEEE, EurAI, and IAPR, a member of CLAIRE and a Fellow of ELLIS.",
+      image: marco
     },
     {
       name: "Jose Hernandez-Orallo",
@@ -90,9 +97,10 @@ export default function TeamSection() {
     },
     {
       name: "Gerhard Lakemeyer",
-      affiliation: "Aachen University, Germany",
-      bio: "",
-      image: team1
+      affiliation: "RWTH Aachen University, Germany",
+      bio:
+        "Gerhard Lakemeyer is a Full Professor of Computer Science at RWTH Aachen University in Germany, where he heads the Knowledge-Based Systems Group. He is also a Full Professor (status-only) at the University of Toronto, Canada, and a Professorial Fellow at the University of New South Wales, Australia. His research interests include knowledge representation and cognitive robotics. He is a Fellow of the European Association for Artificial Intelligence (EurAI), past President of EurAI, Associate Editor of Artificial Intelligence, and Area Editor of Computational Intelligence.",
+      image: gerhard
     },
     {
       name: "Andrea Passerini,",
@@ -125,7 +133,7 @@ export default function TeamSection() {
     }
   ];
   const teamlist = team.map(member => (
-    <GridItem xs={12} sm={12} md={4}>
+    <GridItem xs={12} sm={12} md={4} key={member.name}>
       <Card plain>
         <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
           <img src={member.image} alt="..." className={imageClasses} />
@@ -145,9 +153,7 @@ export default function TeamSection() {
   return (
     <div className={classes.section}>
       <h2 className={classes.title}>Scientific Board</h2>
-      <div>
-        <GridContainer>{teamlist}</GridContainer>
-      </div>
+      <GridContainer>{teamlist}</GridContainer>
     </div>
   );
 }

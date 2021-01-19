@@ -68,7 +68,7 @@ export default function Header(props) {
     [classes.fixed]: fixed
   });
   const brandComponent = (
-    <Button href="/" className={classes.title}>
+    <Button href="#" className={classes.title}>
       TAILOR{" "}
       <div
         id="headerpop"

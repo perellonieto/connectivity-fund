@@ -1,6 +1,7 @@
 import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 // @material-ui/icons
 import CastForEducation from "@material-ui/icons/CastForEducation";
@@ -99,12 +100,16 @@ export default function InfoSection() {
       </div>
       <div className={classes.section}>
         <GridItem xs={12} sm={12} md={12}>
-          <Button color="primary" size="lg" href="about" target="_blank">
-            Learn how it works
-          </Button>
-          <Button color="primary" size="lg" href="apply" target="_blank">
-            Apply now
-          </Button>
+          <Link to="about">
+            <Button color="primary" size="lg" target="_blank">
+              Learn how it works
+            </Button>
+          </Link>
+          <Link to="apply">
+            <Button color="primary" size="lg" target="_blank">
+              Apply now
+            </Button>
+          </Link>
         </GridItem>
       </div>
     </div>

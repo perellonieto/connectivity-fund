@@ -15,6 +15,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
+import { Link } from "react-router-dom";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
@@ -80,16 +81,17 @@ export default function LandingPage(props) {
                   across Europe for research visits or workshops.
                 </h4>
                 <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="apply"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-play" />
-                  Apply now
-                </Button>
+                <Link to="apply">
+                  <Button
+                    color="danger"
+                    size="lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fas fa-play" />
+                    Apply now
+                  </Button>
+                </Link>
               </GridItem>
             </GridContainer>
           </div>

@@ -27,19 +27,25 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button href="about" color="transparent" className={classes.navLink}>
-          How it works
-        </Button>
+        <Link to="about" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            How it works
+          </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button href="board" color="transparent" className={classes.navLink}>
-          Scientific Board
-        </Button>
+        <Link to="board" style={{ color: "inherit" }}>
+          <Button color="transparent" className={classes.navLink}>
+            Scientific Board
+          </Button>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button href="apply" color="primary" round>
-          Apply Now
-        </Button>
+        <Link to="apply">
+          <Button color="primary" round>
+            Apply Now
+          </Button>
+        </Link>
       </ListItem>
     </List>
   );

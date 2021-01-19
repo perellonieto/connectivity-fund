@@ -160,9 +160,10 @@ export default function SectionAbout() {
                       Introduction: Significance of proposed research and prior
                       work.
                     </li>
-                    <li>Methods: For research visits, detail the technical approach 
-                      you have in mind. For workshops, detail who will attend (and why) 
-                      and how participants will work together.
+                    <li>
+                      Methods: For research visits, detail the technical
+                      approach you have in mind. For workshops, detail who will
+                      attend (and why) and how participants will work together.
                     </li>
                     <li>
                       Expected Results: Please include milestones with timeline
@@ -193,7 +194,8 @@ export default function SectionAbout() {
                 In the appendices, you need to submit your{" "}
                 <b>Curriculum Vitae (CV)</b> and an{" "}
                 <b>invitation letter from your host</b> stating that they will
-                host you during the indicated period. This only applies to research visits.
+                host you during the indicated period. This only applies to
+                research visits.
               </p>
               <div className={classes.title}>
                 <h3>What's important?</h3>
@@ -209,8 +211,9 @@ export default function SectionAbout() {
                 </li>
                 <li>
                   <b>Scientific track record</b> (25%). Your prior achievements,
-                  taking into account age and personal situation. For workshops, this can 
-                  include the track record of the participants or the community as a whole.
+                  taking into account age and personal situation. For workshops,
+                  this can include the track record of the participants or the
+                  community as a whole.
                 </li>
                 <li>
                   <b>Scientific step-up</b> (25%). How does the visit help you
@@ -218,13 +221,14 @@ export default function SectionAbout() {
                   workshops: how does the workshop help the participants?
                 </li>
                 <li>
-                  <b>Suitability of the host</b> (12.5%). Is the host lab (or workshop venue)
-                  appropriate? Is it the best place to do the proposed research?
+                  <b>Suitability of the host</b> (12.5%). Is the host lab (or
+                  workshop venue) appropriate? Is it the best place to do the
+                  proposed research?
                 </li>
                 <li>
-                  <b>Suitability of the visit length</b> (12.5%). Is the visit or workshop 
-                  length appropriate and realistic, also taking into account
-                  your personal and family situation?
+                  <b>Suitability of the visit length</b> (12.5%). Is the visit
+                  or workshop length appropriate and realistic, also taking into
+                  account your personal and family situation?
                 </li>
               </ul>
               <p>
@@ -238,9 +242,9 @@ export default function SectionAbout() {
               </div>
               <p>
                 <b>All European AI researchers</b> are eligible. You should be
-                able to demonstrate that you work at a European lab and are active in AI
-                through your publication record, or using other proof of
-                involvement in AI research projects. You should be{" "}
+                able to demonstrate that you work at a European lab and are
+                active in AI through your publication record, or using other
+                proof of involvement in AI research projects. You should be{" "}
                 <b>
                   from a non-TAILOR lab and interested in visiting a TAILOR lab
                 </b>
@@ -257,20 +261,28 @@ export default function SectionAbout() {
                 can only be invited to visit a non-TAILOR lab, in which case the
                 non-TAILOR lab needs to submit the application.
               </p>
-              <p>'European' countries means all EU and associated countries. 
-                Before submission, please check whether your lab is located in 
-                the EU, an <a href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/3cpart/h2020-hi-list-ac_en.pdf">EU associated country</a>
-                (UK is still in negotiation after Brexit), or <a href="https://ec.europa.eu/research/participants/data/ref/h2020/other/wp/2018-2020/annexes/h2020-wp1820-annex-a-countries-rules_en.pdf">
-                one of the other countries eligible for funding</a>. Sadly, this 
-                excludes countries such as the USA, Canada, or China. If you are 
-                not based in one of these countries, you will need to be invited 
-                by a European lab who can receive the funding. In almost all
-                cases, your own nationality is not important, but rather where the
-                lab is located that will receive the funding for your research visit
-                or workshop. That can be either your own lab or your host lab. As 
-                stated before, that lab should be a non-TAILOR lab to be able to
-                recieve third party funding.
-               </p>
+              <p>
+                'European' countries means all EU and associated countries.
+                Before submission, please check whether your lab is located in
+                the EU, an{" "}
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/3cpart/h2020-hi-list-ac_en.pdf">
+                  EU associated country
+                </a>{" "}
+                (UK is still in negotiation after Brexit), or{" "}
+                <a href="https://ec.europa.eu/research/participants/data/ref/h2020/other/wp/2018-2020/annexes/h2020-wp1820-annex-a-countries-rules_en.pdf">
+                  one of the other countries eligible for funding
+                </a>
+                .
+              </p>
+              <p>
+                If you are not based in one of these countries, you will need to
+                be invited by a European lab who can receive the funding. In
+                almost all cases, your own nationality is not important, but
+                rather where the lab is located that will receive the funding
+                for your research visit or workshop. That can be either your own
+                lab or your host lab. As stated before, that lab should be a
+                non-TAILOR lab to be able to recieve third party funding.
+              </p>
               <div className={classes.title}>
                 <h3>TAILOR labs?</h3>
               </div>

@@ -3,6 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import Icon from "@material-ui/core/Icon";
+import { Link } from "react-router-dom";
 
 // @material-ui/icons
 import People from "@material-ui/icons/People";
@@ -33,7 +34,7 @@ export default function WorkSection() {
           <h2 className={classes.title}>Submit your proposal</h2>
           <h4 className={classes.description}>
             Before submission, please{" "}
-            <a href="about">read the submission instructions</a>.
+            <Link to="about">read the submission instructions</Link>.
           </h4>
           <form
             action="https://formspree.io/f/myybpoqa"
