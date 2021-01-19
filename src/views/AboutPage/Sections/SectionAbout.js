@@ -238,7 +238,7 @@ export default function SectionAbout() {
               </div>
               <p>
                 <b>All European AI researchers</b> are eligible. You should be
-                able to demonstrate that you live in Europe and are active in AI
+                able to demonstrate that you work at a European lab and are active in AI
                 through your publication record, or using other proof of
                 involvement in AI research projects. You should be{" "}
                 <b>
@@ -257,6 +257,15 @@ export default function SectionAbout() {
                 can only be invited to visit a non-TAILOR lab, in which case the
                 non-TAILOR lab needs to submit the application.
               </p>
+              <p>'European' countries means all EU and associated countries. 
+                Before submission, please check whether your lab is located in 
+                the EU, an <a href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/3cpart/h2020-hi-list-ac_en.pdf">EU associated country</a>
+                (UK is still in negotiation after Brexit), or <a href="https://ec.europa.eu/research/participants/data/ref/h2020/other/wp/2018-2020/annexes/h2020-wp1820-annex-a-countries-rules_en.pdf">
+                one of the other countries eligible for funding</a>. Sadly, this 
+                excludes countries such as the USA, Canada, or China. If you are 
+                not based in one of these countries, you will need to be invited 
+                by a European lab who can receive the funding.
+               </p>
               <div className={classes.title}>
                 <h3>TAILOR labs?</h3>
               </div>
