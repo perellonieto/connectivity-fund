@@ -29,91 +29,42 @@ export default function WorkSection() {
 
   return (
     <div className={classes.section}>
-      <GridContainer justify="center">
-        <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Submit your proposal</h2>
-          <h4 className={classes.description}>
-            Before submission, please{" "}
-            <Link to="about">read the submission instructions</Link>.
+      <div className={classes.container}>
+        <div id="typography">
+          <GridContainer justify="center">
+            <GridItem cs={12} sm={12} md={8}>
+              <h2 className={classes.title}>Submit your proposal</h2>
+              <h4 className={classes.description}>
+                Before submission, please{" "}
+                <Link to="about">read the submission instructions</Link>.
           </h4>
-          <form
-            action="https://formspree.io/f/myybpoqa"
-            method="POST"
-            onSubmit={handleSubmit(data => alert(JSON.stringify(data)))}
-          >
-            <GridContainer>
-              <GridItem xs={12} sm={12} md={12}>
-                <CustomInput
-                  labelText="Proposal Title"
-                  id="title"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    type: "text",
-                    inputRef: register,
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <Label className={classes.inputIconsColor} />
-                      </InputAdornment>
-                    )
-                  }}
-                />
-                <CustomInput
-                  labelText="Author Name(s)"
-                  id="author"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    type: "text",
-                    inputRef: register,
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <People className={classes.inputIconsColor} />
-                      </InputAdornment>
-                    )
-                  }}
-                />
-                <CustomInput
-                  labelText="Email"
-                  id="email"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    type: "email",
-                    inputRef: register,
-                    endAdornment: (
-                      <InputAdornment position="end">
-                        <Email className={classes.inputIconsColor} />
-                      </InputAdornment>
-                    )
-                  }}
-                />
-                <CustomInput
-                  labelText="Your Message"
-                  id="message"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                  inputProps={{
-                    multiline: true,
-                    rows: 5,
-                    type: "text",
-                    inputRef: register
-                  }}
-                />
-                <GridItem xs={12} sm={12} md={4}>
-                  <Button color="primary" type="submit">
-                    Submit
-                  </Button>
-                </GridItem>
-              </GridItem>
-            </GridContainer>
-          </form>
-        </GridItem>
-      </GridContainer>
+            </GridItem>
+          </GridContainer>
+
+          <GridContainer justify="center">
+            <GridItem cs={12} sm={12} md={8}>
+              <ul style={{ color: "#3c4858" }}>
+                <li>To submit your proposal, prepare it as a single PDF, including all appendices (e.g. CV and invitation letter).</li>
+                <li>Click the button below to start your submission via Easychair. You may need to create an Easychair account.</li>
+                <li>The next cut-off deadline in 15th of March, 2021 (Anywhere On Earth).</li>
+              </ul>
+            </GridItem>
+          </GridContainer>
+
+          <GridContainer justify="center">
+
+              <Button
+                variant="contained"
+                color="primary"
+                className={classes.button}
+                endIcon={<Icon>send</Icon>}
+                href="https://easychair.org/conferences/?conf=tailor-connect-2021-1"
+              >
+                Start submission
+          </Button>
+          </GridContainer>
+        </div>
+      </div>
     </div>
   );
 }

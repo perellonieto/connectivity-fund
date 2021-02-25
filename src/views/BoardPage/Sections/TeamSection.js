@@ -29,6 +29,7 @@ import hector from "assets/img/faces/hector.jpg";
 import gerhard from "assets/img/faces/gerhard.jpg";
 import giovanni from "assets/img/faces/giovanni.jpg";
 import marco from "assets/img/faces/marco.jpg";
+import saso from "assets/img/faces/saso.jpg";
 
 
 const useStyles = makeStyles(styles);
@@ -58,8 +59,8 @@ export default function TeamSection() {
     {
       name: "Sašo Džeroski",
       affiliation: "Jozef Stefan Institute, Slovenia",
-      bio: "",
-      image: team1
+      bio: "Sašo Džeroski is a professor at the Jozef Stefan Institute in Slovenia. He develops methods for constraint-based data mining, predicting structured outputs, and automated modelling of dynamic systems, and applies them to problems from systems biology and ecology.",
+      image: saso
     },
     {
       name: "Peter Flach",

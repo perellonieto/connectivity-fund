@@ -33,7 +33,7 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://liu.se/en/research/tailor"
+                href="https://tailor-network.eu/"
                 className={classes.block}
                 target="_blank"
               >
