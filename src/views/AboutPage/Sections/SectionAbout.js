@@ -181,7 +181,7 @@ export default function SectionAbout() {
                   </li>
                   <li>
                     Funds needed: Requested amount. Provide estimates of your
-                    main expenses.
+                    main expenses. Note the <a href="/connectivity-fund/travel.pdf">maximum reimbursement amounts</a>.
                   </li>
                   <li>
                     Additional information: Is there anything else that we
@@ -228,7 +228,10 @@ export default function SectionAbout() {
                 <li>
                   <b>Suitability of the visit length</b> (12.5%). Is the visit
                   or workshop length appropriate and realistic, also taking into
-                  account your personal and family situation?
+                  account your personal and family situation? If you plan to 
+                  separate the research visit into multiple visits, clearly explain
+                  why this is necessary. This could either be for scientific
+                  or personal reasons (e.g. family commitments).
                 </li>
               </ul>
               <p>
