@@ -46,7 +46,6 @@ export default function WorkSection() {
               <ul style={{ color: "#3c4858" }}>
                 <li>To submit your proposal, prepare it as a single PDF, including all appendices (e.g. CV and invitation letter).</li>
                 <li>Click the button below to start your submission via Easychair. You may need to create an Easychair account.</li>
-                <li>The next cut-off deadline in 15th of March, 2021 (Anywhere On Earth).</li>
               </ul>
             </GridItem>
           </GridContainer>
