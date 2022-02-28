@@ -37,31 +37,35 @@ export default function WorkSection() {
               <h4 className={classes.description}>
                 Before submission, please{" "}
                 <Link to="about">read the submission instructions</Link>.
-          </h4>
+              </h4>
             </GridItem>
           </GridContainer>
 
           <GridContainer justify="center">
             <GridItem cs={12} sm={12} md={8}>
               <ul style={{ color: "#3c4858" }}>
-                <li>To submit your proposal, prepare it as a single PDF, including all appendices (e.g. CV and invitation letter).</li>
-                <li>Click the button below to start your submission via Easychair. You may need to create an Easychair account.</li>
-                <li>The next cut-off deadline in 15th of March, 2021 (Anywhere On Earth).</li>
+                <li>
+                  To submit your proposal, prepare it as a single PDF, including
+                  all appendices (e.g. CV and invitation letter).
+                </li>
+                <li>
+                  Click the button below to start your submission via Easychair.
+                  You may need to create an Easychair account.
+                </li>
               </ul>
             </GridItem>
           </GridContainer>
 
           <GridContainer justify="center">
-
-              <Button
-                variant="contained"
-                color="primary"
-                className={classes.button}
-                endIcon={<Icon>send</Icon>}
-                href="https://easychair.org/conferences/?conf=tailor-connect-2021-1"
-              >
-                Start submission
-          </Button>
+            <Button
+              variant="contained"
+              color="primary"
+              className={classes.button}
+              endIcon={<Icon>send</Icon>}
+              href="https://easychair.org/conferences/?conf=tailor-connect-2021-1"
+            >
+              Start submission
+            </Button>
           </GridContainer>
         </div>
       </div>

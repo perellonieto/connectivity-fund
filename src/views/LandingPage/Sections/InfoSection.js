@@ -112,6 +112,13 @@ export default function InfoSection() {
           </Link>
         </GridItem>
       </div>
+      <div className={classes.section}>
+        <GridItem xs={12} sm={12} md={12}>
+          <h5 className={classes.description}>
+            This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 952215.
+          </h5>
+        </GridItem>
+      </div>
     </div>
   );
 }

@@ -6,23 +6,24 @@
   "private": true,
   "main": "src/index.js",
   "dependencies": {
-    "@material-ui/core": "4.11.0",
-    "@material-ui/icons": "4.9.1",
-    "classnames": "2.2.6",
-    "history": "4.10.1",
+    "@material-ui/core": "4.12.2",
+    "@material-ui/icons": "4.11.2",
+    "classnames": "2.3.1",
+    "history": "5.0.0",
     "moment": "2.29.1",
-    "node-sass": "4.14.1",
-    "nouislider": "14.6.3",
+    "node-sass": "^6.0.1",
+    "nouislider": "15.2.0",
     "prop-types": "15.7.2",
-    "react": "17.0.1",
+    "react": "17.0.2",
     "react-datetime": "3.0.4",
-    "react-dom": "17.0.1",
-    "react-hook-form": "^6.11.5",
-    "react-particles-js": "^3.4.1",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.11.1",
+    "react-particles-js": "^3.5.3",
     "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.1",
-    "react-slick": "0.27.13",
-    "react-swipeable-views": "0.13.9"
+    "react-scripts": "4.0.3",
+    "react-slick": "0.28.1",
+    "react-swipeable-views": "0.14.0",
+    "tsparticles": "^1.31.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,6 +48,6 @@
     "development": []
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }

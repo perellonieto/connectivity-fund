@@ -139,8 +139,10 @@ export default function SectionAbout() {
                 We can support visits and workshops up to <b>15.000 EUR</b> per
                 proposal. More could be requested given a really good
                 motivation. We aim to support 100 visits/workshops over 3 years.
-                The fund only covers travel, housing, and sustenance. Only
-                actually made and proven expenses are reimbursed.
+                The fund only covers travel, housing, and sustenance. The support
+                is offered as a lump sum based on a cost estimate submitted beforehand.
+                60% of the lump sum will be paid at the start of the visit. The 
+                remaining 40% will be paid after the final report has been received and approved.
               </p>
               <div className={classes.title}>
                 <h3>What to submit?</h3>
@@ -181,7 +183,7 @@ export default function SectionAbout() {
                   </li>
                   <li>
                     Funds needed: Requested amount. Provide estimates of your
-                    main expenses. Note the <a href="/connectivity-fund/travel.pdf">maximum reimbursement amounts</a>.
+                    main expenses. Note the <a href="/connectivity-fund/travel.pdf">maximum 'per diem' reimbursement amounts</a>.
                   </li>
                   <li>
                     Additional information: Is there anything else that we
@@ -286,6 +288,33 @@ export default function SectionAbout() {
                 Workshops funded by the connecticity fund (and hosted by
                 non-TAILOR labs) can cover travel costs for people outside of
                 Europe if they handle the reimbursements.
+              </p>
+              <div className={classes.title}>
+                <h3>Practical organization</h3>
+              </div>
+              <p>
+                Connectivity Fund research visits and workshops are executed as financial support to third 
+                parties (FSTP), and only reimburses travel costs (by invoice). A Subgrant 
+                Agreement will be established between the institute of the applicant (e.g. a university
+                or company) and the Eindhoven University of Technology, who manages the 
+                connectivity fund on behalf of the TAILOR Network of Excellence. The agreement 
+                is signed by representatives of both parties. We cannot fund individual people 
+                directly.
+
+                A final budget and start and end dates of the research program are defined in the subgrant 
+                agreement. 60% of this budget can be requested by invoice before the start of the research 
+                visit or workshop. The remainder of the budget can be requested by a second invoice after the 
+                end of the visit or workshop, matching (only) the actual costs made. The recipient of the 
+                subgrant must ensure that proofs of actual costs are kept for the European Court of Auditors
+                (ECA) and European Anti-fraud Office (OLAF) for a period of 5 years. Such costs can be 
+                actual proofs or per-diem allowances per local regulations of the recipient. Expenses are
+                capped using the <a href="/connectivity-fund/travel.pdf">standard per diem rates</a> for 
+                Dutch universities, and expenditures before or after the duration of the proposed research 
+                program are not eligible.
+
+                As part of the subgrant, the recipient agrees to submit a final scientific report within 3 
+                months after the end of the research program. For visits longer than 6 months, intermediate 
+                reports must be submitted every 6 months. 
               </p>
               <div className={classes.title}>
                 <h3>TAILOR labs?</h3>
