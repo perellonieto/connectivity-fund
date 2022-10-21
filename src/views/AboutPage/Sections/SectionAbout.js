@@ -259,7 +259,7 @@ export default function SectionAbout() {
                 only non-TAILOR attendants can receive funding.
               </p>
               <p>
-                Since the Connectivity Fund is a 'Third Party Funding'
+                Since the Clique Fund is a 'Third Party Funding'
                 mechanism, we can only reimburse non-TAILOR participants. In
                 practice, this means that, if you are from a non-TAILOR lab, you
                 submit the application yourself. People working at a TAILOR lab
@@ -293,7 +293,7 @@ export default function SectionAbout() {
                 <h3>Practical organization</h3>
               </div>
               <p>
-                Connectivity Fund research visits and workshops are executed as financial support to third 
+                Clique Fund research visits and workshops are executed as financial support to third 
                 parties (FSTP), and only reimburses travel costs (by invoice). A Subgrant 
                 Agreement will be established between the institute of the applicant (e.g. a university
                 or company) and the Eindhoven University of Technology, who manages the 

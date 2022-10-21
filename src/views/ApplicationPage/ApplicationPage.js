@@ -40,7 +40,7 @@ export default function LandingPage(props) {
       <div
         style={{
           background:
-            "linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(58,12,103,1) 67%)",
+            "linear-gradient(100deg, rgba(36,2,0,1) 0%, rgba(103,58,12,1) 67%)",
           minHeight: "calc(100vh - 80px)"
         }}
       >

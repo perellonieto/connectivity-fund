@@ -34,18 +34,18 @@ export default function LandingPage(props) {
       move: {
         enable: true,
         outMode: "bounce",
-        speed: 1,
+        speed: 0.5,
         straight: false
       },
       number: {
         density: {
           enable: true,
-          value_area: 800
+          value_area: 600
         },
         value: 80
       },
       links: {
-        distance: 120
+        distance: 150
       }
     }
   };
@@ -65,7 +65,7 @@ export default function LandingPage(props) {
       <div
         style={{
           background:
-            "linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(58,12,103,1) 67%)"
+            "linear-gradient(100deg, rgba(36,2,0,1) 0%, rgba(103,58,12,1) 67%)"
         }}
       >
         <Parallax>
@@ -73,12 +73,12 @@ export default function LandingPage(props) {
             <Particles width="100%" height="100%" params={particleprops} />
             <GridContainer style={{ marginTop: -200, marginBottom: 200 }}>
               <GridItem xs={12} sm={12} md={12}>
-                <h1 className={classes.title}>Visit AI Labs across Europe.</h1>
+                <h1 className={classes.title}>Visit AI Labs within the TAILOR network.</h1>
                 <h4>
                   TAILOR is a European Network of Excellence on Trustworthy
                   Artificial Intelligence. To establish a truly vibrant network,
-                  the Connectivity Fund provides funding to AI researchers from
-                  across Europe for research visits or workshops.
+                  the Clique Fund provides funding to AI researchers within the
+                  TAILOR network for research visits to other TAILOR labs.
                 </h4>
                 <br />
                 <Link to="apply">

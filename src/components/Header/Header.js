@@ -75,7 +75,7 @@ export default function Header(props) {
         style={{ marginLeft: 4, marginRight: 4 }}
         className={color !== "transparent" ? classes.primaryHighlight : ""}
       >
-        Connectivity
+        Clique
       </div>{" "}
       Fund
     </Button>

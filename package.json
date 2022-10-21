@@ -1,8 +1,8 @@
 {
-  "name": "tailor-connectivity",
-  "homepage": "https://tailor-eu.github.io/connectivity-fund",
+  "name": "tailor-clique",
+  "homepage": "https://tailor-eu.github.io/clique-fund",
   "version": "1.0.0",
-  "description": "TAILOR Connectivity Fund",
+  "description": "TAILOR Clique Fund",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
@@ -10,7 +10,7 @@
     "@material-ui/icons": "4.11.2",
     "classnames": "2.3.1",
     "history": "5.0.0",
-    "moment": "2.29.1",
+    "moment": "^2.29.4",
     "node-sass": "^6.0.1",
     "nouislider": "15.2.0",
     "prop-types": "15.7.2",

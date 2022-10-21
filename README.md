@@ -1,4 +1,4 @@
-# Website of the TAILOR Connectivity Fund
+# Website of the TAILOR Clique Fund
 
 ### Getting started (for developers)
 - git clone
